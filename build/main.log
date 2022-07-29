@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.26) (preloaded format=pdflatex 2022.7.29)  29 JUL 2022 08:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7.26) (preloaded format=pdflatex 2022.7.29)  29 JUL 2022 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,20 +615,20 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
  (C:\Users\l01192047\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.colorbrewer.code.tex (C:\Users\l01192047\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarycolorbrewer.code.tex)) (C:\Users\l01192047\Desktop\Test-Template\build\main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -687,11 +687,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 (C:\Users\l01192047\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
  (C:\Users\l01192047\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -700,13 +700,13 @@ Non-PDF special ignored!
 
 {C:/Users/l01192047/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-c:/Users/l01192047/Desktop/Test-Template/main.tex:74: LaTeX Error: \begin{itemize} on input line 66 ended by \end{document}.
+c:/Users/l01192047/Desktop/Test-Template/main.tex:73: LaTeX Error: \begin{itemize} on input line 65 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \end{document}
+l.73 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -715,7 +715,7 @@ or  <return>  to continue without it.
 (C:\Users\l01192047\Desktop\Test-Template\build\main.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 66 (\begingroup)
+### semi simple group (level 1) entered at line 65 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  28760 strings out of 478337
@@ -726,7 +726,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,6n,103p,756b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\l01192047\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/l01192047/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/l01192047/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/l01192047/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on C:\Users\l01192047\Desktop\Test-Template\build\main.pdf (1 page, 48327 bytes).
+Output written on C:\Users\l01192047\Desktop\Test-Template\build\main.pdf (1 page, 48903 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
