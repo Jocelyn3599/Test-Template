@@ -1,0 +1,7 @@
+\babel@toc {nil}{}\relax 
+\contentsline {section}{\numberline {1}Business Requirements}{2}{}%
+\contentsline {section}{\numberline {2}Report Structure and Requirements}{2}{}%
+\contentsline {section}{\numberline {3}Calculations}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Contributions}{3}{}%
+\contentsline {subsection}{\numberline {3.2}Income}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Net Cash Flow}{5}{}%

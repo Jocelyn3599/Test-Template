@@ -1,0 +1,36 @@
+\begin{huge}
+\section{Calculations}
+\label{sec:calcs}
+\end{huge}
+\subsection{Contributions}
+\vspace*{1cm}
+\textbf{The Contributions are represented by the Total Contributions amount from the consolidation of IF:QQ fund operations from all fund investments for the previous four years and YTD by using the formula:}
+\[ Contributions = -Total Contributions\]
+\begin{figure}[ht]
+    \centerline{\includegraphics[width=1.0\textwidth]{contributions.png}}
+    \end{figure}
+\pagebreak
+\subsection{Income}
+\vspace*{1cm}
+\textbf{The Income is represented by the Distributions of Income amount from the consolidation of IF:QQ fund operations from all fund investments for the previous four years and YTD: }
+\begin{figure}[ht]
+    \centerline{\includegraphics[width=1.0\textwidth]{income.png}}
+    \end{figure}
+\pagebreak
+\subsection{Net Cash Flow}
+\vspace*{1cm}
+\textbf{The Income is represented by the Distributions of Income amount from the consolidation of IF:QQ fund operations from all fund investments for the previous four years and YTD: }
+\[ Net Cash Flow = Contributions + Income + Return of Capital & Gain\]
+\textbf{Code:}
+\begin{verbatim}
+    DATA WORK.T_PARTNERSHIP_SUMMARY;
+    SET WORK.T_PARTNERSHIP_SUMMARY;
+
+    TOTAL_GROSS_EXPOSURE=CONVERTCURR(TOTAL_GROSS_EXPOSURE,FUND_CURRENCY,"USD",ENTRY_DATE);
+    NET_ASSET_VALUE=CONVERTCURR(NET_ASSET_VALUE,FUND_CURRENCY,"USD",ENTRY_DATE);
+    CASH_CASH_EQUIVALENTS=CONVERTCURR(CASH_CASH_EQUIVALENTS,FUND_CURRENCY,"USD",ENTRY_DATE);
+
+    SUBSCRIPTION_LINE_FINANCING=CONVERTCURR(SUBSCRIPTION_LINE_FINANCING,FUND_CURRENCY,"USD",ENTRY_DATE);
+    TOTAL_FINANCE_BMTM=CONVERTCURR(TOTAL_FINANCE_BMTM,FUND_CURRENCY,"USD",ENTRY_DATE);
+RUN;
+\end{verbatim}
